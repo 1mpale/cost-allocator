@@ -1,0 +1,5 @@
+[
+  {"tenant_host": "customer-a.oursharedapp.com", "request_count": 5000, "total_bytes": 10000000},
+  {"tenant_host": "customer-b.oursharedapp.com", "request_count": 3000, "total_bytes": 25000000},
+  {"tenant_host": "customer-c.oursharedapp.com", "request_count": 2000, "total_bytes": 5000000}
+]

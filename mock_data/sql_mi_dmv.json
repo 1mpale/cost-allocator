@@ -1,0 +1,362 @@
+[
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 0,
+    "total_cpu_sec": 2400.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 1,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 2,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 3,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 4,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 5,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 6,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 7,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 8,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 9,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 10,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 11,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 12,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 13,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 14,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 15,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 16,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 17,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 18,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 19,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 20,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 21,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 22,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_a",
+    "hour": 23,
+    "total_cpu_sec": 0.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 0,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 1,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 2,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 3,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 4,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 5,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 6,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 7,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 8,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 9,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 10,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 11,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 12,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 13,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 14,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 15,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 16,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 17,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 18,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 19,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 20,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 21,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 22,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_b",
+    "hour": 23,
+    "total_cpu_sec": 100.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 0,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 1,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 2,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 3,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 4,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 5,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 6,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 7,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 8,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 9,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 10,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 11,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 12,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 13,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 14,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 15,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 16,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 17,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 18,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 19,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 20,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 21,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 22,
+    "total_cpu_sec": 50.0
+  },
+  {
+    "database_name": "db_tenant_customer_c",
+    "hour": 23,
+    "total_cpu_sec": 50.0
+  }
+]

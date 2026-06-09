@@ -1,0 +1,17 @@
+{
+  "databases": {
+    "db_tenant_customer_a": "customer_a",
+    "db_tenant_customer_b": "customer_b",
+    "db_tenant_customer_c": "customer_c"
+  },
+  "subnets": {
+    "10.100.1.0/24": "customer_a",
+    "10.100.2.0/24": "customer_b",
+    "10.100.3.0/24": "customer_c"
+  },
+  "hostnames": {
+    "customer-a.oursharedapp.com": "customer_a",
+    "customer-b.oursharedapp.com": "customer_b",
+    "customer-c.oursharedapp.com": "customer_c"
+  }
+}
