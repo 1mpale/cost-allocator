@@ -1,7 +1,4 @@
 import json
-import os
-import tempfile
-from io import StringIO
 
 from allocator.models import AllocationReport, TenantAllocation
 from allocator.report import print_table, save_json
