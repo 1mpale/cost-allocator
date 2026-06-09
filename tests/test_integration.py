@@ -25,7 +25,7 @@ def test_integration_zero_leak_all_resources(tmp_path):
     config = load_billing_config(Path(__file__).parent.parent / "mock_data")
 
     out = tmp_path / "report.json"
-    report = run(str(out))
+    run(str(out))
 
     data = json.loads(out.read_text())
 
