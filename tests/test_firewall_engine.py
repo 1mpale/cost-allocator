@@ -1,5 +1,4 @@
 import pytest
-import sys
 from allocator.engine.firewall import allocate
 from allocator.ingestion.firewall import FirewallRecord
 
