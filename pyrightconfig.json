@@ -1,4 +1,5 @@
 {
-  "pythonPath": ".venv/bin/python",
-  "include": ["allocator", "tests"]
+  "include": ["allocator", "tests"],
+  "venvPath": ".",
+  "venv": ".venv"
 }
