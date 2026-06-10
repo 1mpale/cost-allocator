@@ -51,16 +51,23 @@ def load_live(db_to_tenant: Dict[str, str], connection_strings: Dict[str, str]) 
         conn_str = connection_strings.get(db_name)
         if not conn_str:
             continue
-        try:
-            with pyodbc.connect(conn_str, timeout=10) as conn:
-                cursor = conn.cursor()
-                cursor.execute(QUERY)
-                for row in cursor.fetchall():
-                    records.append(SqlMiRecord(
-                        tenant_id=tenant_id,
-                        hour=int(row.hour),
-                        total_cpu_sec=float(row.TotalCPUSec or 0.0),
-                    ))
-        except Exception as e:
-            print(f"WARNING: SQL query failed for {db_name}: {e}", file=__import__('sys').stderr)
+        import time as _time
+        for attempt in range(3):
+            try:
+                with pyodbc.connect(conn_str, timeout=30) as conn:
+                    cursor = conn.cursor()
+                    cursor.execute(QUERY)
+                    for row in cursor.fetchall():
+                        records.append(SqlMiRecord(
+                            tenant_id=tenant_id,
+                            hour=int(row.hour),
+                            total_cpu_sec=float(row.TotalCPUSec or 0.0),
+                        ))
+                break
+            except Exception as e:
+                if attempt < 2:
+                    print(f"WARNING: SQL query attempt {attempt+1} failed for {db_name}, retrying in 20s: {e}", file=__import__('sys').stderr)
+                    _time.sleep(20)
+                else:
+                    print(f"WARNING: SQL query failed for {db_name} after 3 attempts: {e}", file=__import__('sys').stderr)
     return records

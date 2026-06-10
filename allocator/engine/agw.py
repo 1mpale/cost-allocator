@@ -6,11 +6,16 @@ W_REQ = 0.3
 W_DATA = 0.7
 
 
-def allocate(records: List[AgwRecord], cost_total: float) -> Dict[str, float]:
-    if not records:
+def allocate(
+    records: List[AgwRecord],
+    cost_total: float,
+    known_tenants: List[str] | None = None,
+) -> Dict[str, float]:
+    all_tenants = sorted(set(r.tenant_id for r in records) | set(known_tenants or []))
+    if not all_tenants:
         return {}
 
-    tenants = sorted(r.tenant_id for r in records)
+    tenants = all_tenants
     n = len(tenants)
     by_tenant = {r.tenant_id: r for r in records}
 

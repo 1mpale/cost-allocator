@@ -35,20 +35,27 @@ def load_live(workspace_id: str, credential, hostname_to_tenant: Dict[str, str])
     except ImportError:
         raise ImportError("Install live deps: pip install -r requirements-live.txt")
 
+    # receivedBytes_d / sentBytes_d are the actual AGW access log column names in AzureDiagnostics
     KQL = """
 AzureDiagnostics
 | where ResourceProvider == "MICROSOFT.NETWORK" and Category == "ApplicationGatewayAccessLog"
 | where TimeGenerated >= startofday(now()) and TimeGenerated < now()
-| extend TenantHost = host_s
-| extend BytesSent = toint(originalRequestBytes_d) + toint(responseBodyBytes_d)
+| extend TenantHost = tostring(column_ifexists("host_s", ""))
+| extend BytesSent = toint(column_ifexists("receivedBytes_d", 0)) + toint(column_ifexists("sentBytes_d", 0))
+| where isnotempty(TenantHost)
 | summarize RequestCount = count(), TotalBytes = sum(BytesSent) by TenantHost
 """
+    import sys as _sys
     client = LogsQueryClient(credential)
-    response = client.query_workspace(
-        workspace_id=workspace_id,
-        query=KQL,
-        timespan=datetime.timedelta(days=1),
-    )
+    try:
+        response = client.query_workspace(
+            workspace_id=workspace_id,
+            query=KQL,
+            timespan=datetime.timedelta(days=1),
+        )
+    except Exception as e:
+        print(f"WARNING: AGW KQL query failed: {e}", file=_sys.stderr)
+        return []
     records = []
     if response.status == LogsQueryStatus.SUCCESS:
         for row in response.tables[0].rows:

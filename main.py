@@ -50,7 +50,7 @@ def run(output_path: str) -> AllocationReport:
         fw_records = load_firewall_mock(DATA_DIR)
 
     sql_costs = allocate_sql_mi(sql_records, config.sql_mi_daily_cost_eur)
-    agw_costs = allocate_agw(agw_records, config.agw_daily_cost_eur)
+    agw_costs = allocate_agw(agw_records, config.agw_daily_cost_eur, known_tenants)
     fw_costs, _ = allocate_firewall(fw_records, tenant_map.subnets, config.firewall_daily_cost_eur, known_tenants)
 
     allocations = [
