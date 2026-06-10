@@ -11,7 +11,7 @@ variable "tenant_id" {
 variable "location" {
   type        = string
   description = "Azure region"
-  default     = "westeurope"
+  default     = "northeurope"
 }
 
 variable "ssh_public_key" {
