@@ -1,8 +1,8 @@
 {
   "databases": {
-    "db_tenant_customer_a": "customer_a",
-    "db_tenant_customer_b": "customer_b",
-    "db_tenant_customer_c": "customer_c"
+    "db-tenant-customer-a": "customer_a",
+    "db-tenant-customer-b": "customer_b",
+    "db-tenant-customer-c": "customer_c"
   },
   "subnets": {
     "10.100.1.0/24": "customer_a",

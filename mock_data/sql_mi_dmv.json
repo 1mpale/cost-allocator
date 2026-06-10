@@ -1,361 +1,361 @@
 [
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 0,
     "total_cpu_sec": 2400.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 1,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 2,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 3,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 4,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 5,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 6,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 7,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 8,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 9,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 10,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 11,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 12,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 13,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 14,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 15,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 16,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 17,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 18,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 19,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 20,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 21,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 22,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_a",
+    "database_name": "db-tenant-customer-a",
     "hour": 23,
     "total_cpu_sec": 0.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 0,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 1,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 2,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 3,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 4,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 5,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 6,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 7,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 8,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 9,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 10,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 11,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 12,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 13,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 14,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 15,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 16,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 17,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 18,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 19,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 20,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 21,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 22,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_b",
+    "database_name": "db-tenant-customer-b",
     "hour": 23,
     "total_cpu_sec": 100.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 0,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 1,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 2,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 3,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 4,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 5,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 6,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 7,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 8,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 9,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 10,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 11,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 12,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 13,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 14,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 15,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 16,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 17,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 18,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 19,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 20,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 21,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 22,
     "total_cpu_sec": 50.0
   },
   {
-    "database_name": "db_tenant_customer_c",
+    "database_name": "db-tenant-customer-c",
     "hour": 23,
     "total_cpu_sec": 50.0
   }

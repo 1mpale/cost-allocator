@@ -12,7 +12,7 @@ def test_load_billing_config(mock_data_dir):
 def test_load_tenant_map(mock_data_dir):
     tm = load_tenant_map(mock_data_dir)
     assert isinstance(tm, TenantMap)
-    assert tm.databases["db_tenant_customer_a"] == "customer_a"
+    assert tm.databases["db-tenant-customer-a"] == "customer_a"
     assert tm.subnets["10.100.1.0/24"] == "customer_a"
     assert tm.hostnames["customer-a.oursharedapp.com"] == "customer_a"
 

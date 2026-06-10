@@ -110,10 +110,15 @@ def main() -> None:
     sql_fqdn = os.environ.get("SQL_SERVER_FQDN")
     sql_password = os.environ.get("SQL_ADMIN_PASSWORD")
 
-    missing = [v for v, k in [(agw_ip, "AGW_PUBLIC_IP"), (sql_fqdn, "SQL_SERVER_FQDN"), (sql_password, "SQL_ADMIN_PASSWORD")] if v is None]
+    missing = [k for k, v in {"AGW_PUBLIC_IP": agw_ip, "SQL_SERVER_FQDN": sql_fqdn, "SQL_ADMIN_PASSWORD": sql_password}.items() if v is None]
     if missing:
         print(f"ERROR: Missing env vars: {missing}", file=sys.stderr)
         sys.exit(1)
+
+    # Narrow types after validation
+    assert agw_ip is not None
+    assert sql_fqdn is not None
+    assert sql_password is not None
 
     print("=== Traffic Generator ===")
     print(f"AGW: {agw_ip}  SQL: {sql_fqdn}")
