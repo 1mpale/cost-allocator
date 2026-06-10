@@ -1,0 +1,6 @@
+{
+  "include": ["allocator", "tests", "main.py"],
+  "venvPath": ".",
+  "venv": ".venv",
+  "extraPaths": ["."]
+}

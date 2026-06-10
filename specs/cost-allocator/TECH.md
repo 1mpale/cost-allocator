@@ -295,11 +295,11 @@ Map `DatabaseName` → `tenant_id` via `tenant_map.databases`. The mock data sim
 
 | Step | Command | Pass Condition |
 |---|---|---|
-| Unit: SQL MI zero-leak | `pytest tests/test_sql_mi.py::test_zero_leak` | assert passes |
-| Unit: peak-shaving fairness (SC-2) | `pytest tests/test_sql_mi.py::test_peak_shaving_fairness` | spike tenant cost < steady tenant cost |
-| Unit: AGW zero-leak | `pytest tests/test_agw.py::test_zero_leak` | assert passes |
-| Unit: FW unattributed warning | `pytest tests/test_firewall.py::test_unattributed_ip_warning` | warning on stderr, bytes not lost |
-| Unit: FW zero-leak | `pytest tests/test_firewall.py::test_zero_leak` | assert passes |
-| Integration: full pipeline mock | `pytest tests/test_integration.py::test_full_pipeline_mock` | JSON output matches schema, all SC- criteria green |
-| Integration: stdout table | `pytest tests/test_integration.py::test_stdout_table` | output contains all 3 tenant IDs and 3 resource columns |
+| Unit: SQL MI zero-leak | `pytest tests/test_sql_mi_engine.py::test_zero_leak_basic -v` | assert passes |
+| Unit: peak-shaving fairness (SC-2) | `pytest tests/test_sql_mi_engine.py::test_peak_shaving_fairness -v` | spike tenant cost < steady tenant cost |
+| Unit: AGW zero-leak | `pytest tests/test_agw_engine.py::test_zero_leak -v` | assert passes |
+| Unit: FW unattributed warning | `pytest tests/test_firewall_engine.py::test_unattributed_ip_emits_warning -v` | warning on stderr, bytes not lost |
+| Unit: FW zero-leak | `pytest tests/test_firewall_engine.py::test_zero_leak_fully_attributed -v` | assert passes |
+| Integration: full pipeline mock | `pytest tests/test_integration.py -v` | JSON output matches schema, all SC- criteria green |
+| Integration: stdout table | `pytest tests/test_report.py::test_print_table_contains_all_tenants -v` | output contains all 3 tenant IDs |
 | CLI smoke test | `python main.py --output /tmp/daily_cost_report.json && python -c "import json; json.load(open('/tmp/daily_cost_report.json'))"` | exits 0, file exists, valid JSON |

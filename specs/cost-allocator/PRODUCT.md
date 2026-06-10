@@ -139,7 +139,7 @@ The engine supports two modes:
 | SC-3 | Output JSON matches the required schema (date, total_shared_cost_allocated, allocations[]) | Schema validation against spec §3.4 |
 | SC-4 | Stdout table renders all tenants with correct per-resource breakdown | Integration test captures stdout |
 | SC-5 | Mock mode runs fully offline with no Azure SDK credentials configured | Run with no env vars set; no import errors or auth exceptions |
-| SC-6 | Live mode wires up Log Analytics KQL and SQL MI DMV queries when credentials present | Smoke test with mocked Azure SDK responses |
+| SC-6 | Live mode wires up Log Analytics KQL and SQL MI DMV queries when credentials present | Deferred to follow-up sprint; prototype implements mock mode only (see §3.5 and §7) |
 | SC-7 | `unattributed` firewall bytes appear in report as a warning, not silently dropped | Test with an IP not in the subnet map |
 
 ## 7. Non-Goals
