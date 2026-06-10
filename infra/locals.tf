@@ -115,7 +115,7 @@ locals {
 
   # ── VMs ──────────────────────────────────────────────────────────────────
   vm_admin_username = "azureuser"
-  vm_size           = "Standard_B2s"
+  vm_size           = "Standard_D2s_v3"
   vm_image = {
     publisher = "Canonical"
     offer     = "0001-com-ubuntu-server-jammy"
